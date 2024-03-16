@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -37,4 +38,45 @@ body
     top: 50%;
     margin: auto;
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(45deg,rgb(65,88,208),rgb(200,80,192)50%,rgb(255,204,112)100%);
+}
+.open-modal-btn
+{
+    padding: 20px 40px ;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
+.modal 
+{
+    position:fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0,0,0,0.6);
+}
+
+.modal__linear
+{
+    width: 400px;
+    position: relative;
+    top: 50%;
+    margin: auto;
+
+>>>>>>> 314c6fddbdc8e3503f5bd6ccd7b95e41500d3947
 }
